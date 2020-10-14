@@ -76,8 +76,8 @@ def copy_output(args):
 if __name__ == "__main__":
     args = parse_args()
     if (
-        args.scoring_datastore is None
-        or args.scoring_datastore.strip() == ""
+        args.scoring_datastore_storage_name is None
+        or args.scoring_datastore_storage_name.strip() == ""
         or args.score_container is None
         or args.score_container.strip() == ""
         or args.scoring_datastore_key is None
