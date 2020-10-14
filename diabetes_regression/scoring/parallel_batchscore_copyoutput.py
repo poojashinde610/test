@@ -33,10 +33,13 @@ import os
 def parse_args():
     parser = argparse.ArgumentParser()
     parser.add_argument("--output_path", type=str, default=None)
-    parser.add_argument("--scoring_datastore_storage_name",
-                             type=str, default=None)
-    parser.add_argument("--score_container", 
-                        type=str, default=None)
+    parser.add_argument("--scoring_datastore_storage_name", 
+                        type=str, 
+                        default=None)
+    parser.add_argument("--score_
+                        container", 
+                        type=str, 
+                        default=None)
     parser.add_argument("--scoring_datastore_key", type=str, default=None)
     parser.add_argument("--scoring_output_filename", type=str, default=None)
 
